@@ -1,4 +1,5 @@
-module algorithm-training
+//module algorithm-training
+module github.com/ikonglong/algorithm-training-golang
 
 go 1.15
 

@@ -2,7 +2,7 @@ package week2
 
 import "testing"
 
-func TestOddEvenList(t *testing.T) {
+func TestReverseKGroup(t *testing.T) {
 	head := &ListNode{
 		Val: 1,
 		Next: &ListNode{
@@ -19,5 +19,5 @@ func TestOddEvenList(t *testing.T) {
 			},
 		},
 	}
-	oddEvenList(head).Println()
+	reverseKGroup(head, 2).Println()
 }

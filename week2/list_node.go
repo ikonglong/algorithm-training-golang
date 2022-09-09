@@ -25,6 +25,6 @@ func (n *ListNode) String() string {
 	return b.String()
 }
 
-func (n *ListNode) Print() {
+func (n *ListNode) Println() {
 	fmt.Println(n.String())
 }
